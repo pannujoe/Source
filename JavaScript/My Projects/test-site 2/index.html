@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags always come first -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Musicians, DJs, Photographers, Kids, Parties, Weddings, More!</title>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+      <!-- Custom CSS & JS Plugins -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+      <script src="https://cdn.rawgit.com/nnattawat/flip/v1.0.19/dist/jquery.flip.min.js"></script>
+      <script src="js/main.js" type="text/javascript"></script>
+      <script src="js/modernizr.js"></script>
+      <link rel="stylesheet" href="css/styles.css">
+      
+   </head>
+   <body>
+      <nav class="navbar navbar-light bg-faded">
+         <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+         &#9776;
+         </button>
+         <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+            <ul class="nav navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link" href="#">LOGIN<span class="sr-only">(current)</span></a>
+               </li>
+               <li class="dropdown nav-item nav-link">
+                  BROWSE SERVICES
+                  <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li class="dropdown-item">LIVE MUSIC</li>
+                     <hr>
+                     <li class="dropdown-item">DJs</li>
+                     <hr>
+                     <li class="dropdown-item">VARIETY ACTS</li>
+                     <hr>
+                     <li class="dropdown-item">SPEAKERS</li>
+                     <hr>
+                     <li class="dropdown-item">PARTY RENTALS</li>
+                     <hr>
+                     <li class="dropdown-item">TRANSPORTATION</li>
+                     <hr>
+                     <li class="dropdown-item">PHOTOGRAPHERS</li>
+                     <hr>
+                     <li class="dropdown-item">EVENT SERVICES</li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT US</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#"><span style="color:orange;">VENDOR SIGNUP</span></a>
+               </li>
+            </ul>
+            <form class="form-inline pull-xs-right">
+               <button type="button" class="btn btn-warning btn-md" data-toggle="modal" data-target="#myModal">
+               SEARCH
+               </button>
+               <!-- Modal -->
+               <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                           </button>
+                           <h4 class="modal-title text-muted" id="myModalLabel">vendor search</h4>
+                        </div>
+                        <div class="modal-body">
+                           <div class="container">
+                              <div class="table-responsive">
+                                 <table class="table table-striped">
+                                    <thead>
+                                       <tr>
+                                          <h6 style="text-align:center;" class="text-muted">I'M LOOKING FOR A</h6>
+                                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Band, Magician, Photographer.." style="width:500px;">
+                                       </tr>
+                                    </thead>
+                                    <thead>
+                                       <tr>
+                                          <h6 style="text-align:center; padding-top:10px;" class="text-muted">MY EVENT IS IN</h6>
+                                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="City, ST or Province" style="width:500px;">
+                                       </tr>
+                                    </thead>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-warning btn-block">Submit</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </nav>
+      <section id="cover">
+         <div id="cover-caption">
+            <div class="container">
+               <div class="col-sm-10 col-sm-offset-1">
+                  <h1 class="display-3">your every event marketplace</h1>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section  style="width:100%; background-color:#e6e6e6; padding-top:30px;">
+         <div class="container">
+            <div class="table-responsive">
+               <table class="table table-striped">
+                  <thead>
+                     <tr>
+                        <h6 style="text-align:center;">I'M LOOKING FOR A</h6>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Band, Magician, Photographer..">
+                     </tr>
+                  </thead>
+                  <thead>
+                     <tr>
+                        <h6 style="text-align:center; padding-top:10px;">MY EVENT IS IN</h6>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="City, ST or Province">
+                     </tr>
+                  </thead>
+                  <button type="submit" class="btn btn-warning btn-md btn-block" style="margin-top:10px;">SEARCH</button>
+               </table>
+            </div>
+         </div>
+      </section>
+      <section>
+         <div class="container">
+            <div class="table-responsive">
+               <table class="table table-striped">
+               <thead>
+                  <tr>
+                     <h2 style="text-align:center; padding-top:40px;">HOW IT'S DONE</h2>
+                  </tr>
+                  <hr>
+               </thead>
+               <div class="row placeholders">
+                  <div class="col-xs-6 col-sm-3 placeholder">
+                     <img id="placeholders" style="margin-top:40px;" src="images/image1.svg" width="300" height="300" class="img-fluid img1" alt="Generic placeholder thumbnail">
+                     <h6 style="padding-top:40px;">EXPLORE YOUR OPTIONS</h6>
+                     <hr>
+                     <span class="text-muted">Browse through a variety of vendors in your area. See photos, videos and verified reviews from real clients.</span>
+                  </div>
+                  <div class="col-xs-6 col-sm-3 placeholder">
+                     <img id="placeholders" style="margin-top:40px;"src="images/image2.svg" width="300" height="300" class="img-fluid img2" alt="Generic placeholder thumbnail">
+                     <h6 style="padding-top:40px;">REQUEST THE BEST</h6>
+                     <hr>
+                     <span class="text-muted">Select from your favorites and share some details about the event. We'll send out your request to get the ball rolling.</span>
+                  </div>
+                  <div class="col-xs-6 col-sm-3 placeholder">
+                     <img id="placeholders" style="margin-top:40px;"src="images/image3.svg" width="300" height="300" class="img-fluid img3" alt="Generic placeholder thumbnail">
+                     <h6 style="padding-top:40px;">COMPARE YOUR QUOTES</h6>
+                     <hr>
+                     <span class="text-muted">Review customized quotes and evaluate your options. Then talk with the vendors right here on GigMasters.</span>
+                  </div>
+                  <div class="col-xs-6 col-sm-3 placeholder">
+                     <img id="placeholders" style="margin-top:40px;"src="images/image4.svg" width="300" height="300" class="img-fluid img4" alt="Generic placeholder thumbnail">
+                     <h6 style="padding-top:40px;">BOOK WITH CONFINDENCE</h6>
+                     <hr>
+                     <span class="text-muted">Choose who best fits your event and book with us to receive the money-back guarantee of GigMasters' Buyer Protection</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+        <div class="table-responsive">
+            <table class="table table-xs">
+            
+           
+           <div class="card1 effect__random" data-id="1">
+            
+             <div class="card__front">
+              
+            </div>
+           <div class="card__back">
+             
+            </div>
+            
+          </div><!-- /card -->
+          <div class="card1 effect__random" data-id="2">
+            <div class="card__front">
+             
+            </div>
+            <div class="card__back">
+              
+            </div>
+          </div><!-- /card -->
+          <div class="card1 effect__random" data-id="3">
+            <div class="card__front">
+             
+            </div>
+            <div class="card__back">
+             
+            </div>
+          </div><!-- /card -->
+          <div class="card1 effect__random" data-id="4">
+            <div class="card__front">
+            
+            </div>
+            <div class="card__back">
+              
+            </div>
+          </div>
+          
+           <div class="card1 effect__random" data-id="5">
+            <div class="card__front">
+            
+            </div>
+            <div class="card__back">
+              
+            </div>
+          </div>
+          
+           <div class="card1 effect__random" data-id="6">
+            <div class="card__front">
+            
+            </div>
+            <div class="card__back">
+              
+            </div>
+          </div>
+          
+           <div class="card1 effect__random" data-id="7">
+            <div class="card__front">
+            
+            </div>
+            <div class="card__back">
+              
+            </div>
+          </div>
+          
+          <div class="card1 effect__random" data-id="8">
+            <div class="card__front">
+            
+            </div>
+            <div class="card__back">
+              
+            </div>
+          </div>
+          
+          
+        
+    </table>
+    </div>
+      </section>
+        
+      <section clas="progress">
+         <div class="jumbotron jumbotron-fluid" style="background-color:#33cccc; margin-top:-19px;">
+            <div class="container">
+              <span class="timer"></span>
+               <p class="lead" style="text-align:center;">EVENTS AND COUNTING!</p>
+            </div>
+         </div>
+      </section>
+      <section>
+         <div class="jumbotron jumbotron-fluid text-center" style="margin-top:-31px;">
+            <div class="container">
+               <h1 class="display-3 text-muted" style="text-align:center;">WHAT IS GIGMASTERS?</h1>
+               <p class="lead" style="text-align:center;">GigMasters is your every event marketplace. We're here to help you celebrate all of life's special moments.</p>
+            </div>
+         </div>
+         <div class="embed-responsive embed-responsive-21by9" style="margin-top:-30px;">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Yog-37m7Ymc" frameborder="0" allowfullscreen></iframe>
+         </div>
+      </section>
+      <section>
+         <div class="card-group" style="width:70%; margin-left:200px;">
+            <div class="card" id="card1">
+               <div class="card-block front1">
+                  <h4 class="card-title">music entertainment</h4>
+                  <p class="card-text">bands, soloist, djs, ensembles, cultural bands...</p>
+                  <h3>CLICK ON ME</h3>
+               </div>
+               <div class="card-block back1">
+                  <h4 class="card-title">music entertainment</h4>
+                  <p class="card-text">bands, soloist, djs, ensembles, cultural bands...</p>
+               </div>
+            </div>
+            <div class="card" id="card2">
+               <div class="card-block front2">
+                  <h4 class="card-title">speakers & officiants</h4>
+                  <p class="card-text">motivational speakers, emcees, officiants, corporate speakers...</p>
+               </div>
+               <div class="card-block back2">
+                  <h4 class="card-title">speakers & officiants</h4>
+                  <p class="card-text">motivational speakers, emcees, officiants, corporate speakers...</p>
+               </div>
+            </div>
+            <div class="card" id="card3">
+               <div class="card-block front3">
+                  <h4 class="card-title">variety acts</h4>
+                  <p class="card-text">dancers, magicians, comedians, impersonators...</p>
+               </div>
+               <div class="card-block back3">
+                  <h4 class="card-title">speakers & officiants</h4>
+                  <p class="card-text">motivational speakers, emcees, officiants, corporate speakers...</p>
+               </div>
+            </div>
+         </div>
+         <div class="card-group" style="width:70%; margin-left:200px;">
+            <div class="card" id="card4">
+               <div class="card-block front4">
+                  <h4 class="card-title">party rentals</h4>
+                  <p class="card-text">tents, bounce houses, photo booths, animals for parties...</p>
+               </div>
+               <div class="card-block back4">
+                  <h4 class="card-title">speakers & officiants</h4>
+                  <p class="card-text">motivational speakers, emcees, officiants, corporate speakers...</p>
+               </div>
+            </div>
+            <div class="card" id="card5">
+               <div class="card-block front5">
+                  <h4 class="card-title">transportation</h4>
+                  <p class="card-text">limousines, party buses, antique cars...</p>
+               </div>
+               <div class="card-block back5">
+                  <h4 class="card-title">speakers & officiants</h4>
+                  <p class="card-text">motivational speakers, emcees, officiants, corporate speakers...</p>
+               </div>
+            </div>
+            <div class="card" id="card6">
+               <div class="card-block front6">
+                  <h4 class="card-title">event services</h4>
+                  <p class="card-text">wedding photographers, event artists, event planners...</p>
+               </div>
+               <div class="card-block back6">
+                  <h4 class="card-title">speakers & officiants</h4>
+                  <p class="card-text">motivational speakers, emcees, officiants, corporate speakers...</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+         <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+               <h4 class="text-muted" style="text-align:center;">FEATURED CLIENTS</h4>
+            </div>
+            <section class="images">
+               <div class="table-responsive">
+                  <table class="table table-sm">
+                     <tbody>
+                        <tr>
+                           <td><img src="images/slide1.jpg" alt=""></td>
+                           <td><img src="images/slide1.jpg" alt=""></td>
+                           <td><img src="images/slide1.jpg" alt=""></td>
+                           <td><img src="images/slide1.jpg" alt=""></td>
+                           <td><img src="images/slide1.jpg" alt=""></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </section>
+         </div>
+      </section>
+      <footer id="footer-main">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-3">
+                  <p>2015</p>
+                  <p>coded by Namta</p>
+               </div>
+               <div class="col-sm-3">
+                  <ul class="list-unstyled">
+                     <li><a href="">home</a></li>
+                     <li><a href="">what we do</a></li>
+                     <li><a href="">about</a></li>
+                     <li><a href="">latest</a></li>
+                  </ul>
+               </div>
+               <div class="col-sm-3">
+                  <ul class="list-unstyled"><a href="">facebook</a></ul>
+                  <ul class="list-unstyled"><a href="">twitter</a></ul>
+                  <ul class="list-unstyled"><a href="">youtube</a></ul>
+                  <ul class="list-unstyled"><a href="">linkedin</a></ul>
+               </div>
+               <div class="col-sm-3">
+                  <h5>A tiny header</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolorem numquam autem voluptatem, sequi ut dolore rerum maiores sint nihil doloribus tempore nisi ipsum temporibus laudantium, quia molestiae ex sapiente.</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+    
+           
+      
+      <script>
+          
+      $('#card1').flip();
+         $('#card2').flip();
+         $('#card3').flip();
+         $('#card4').flip();
+         $('#card5').flip();
+         $('#card6').flip();
+            
+        </script>
+      
+      <!-- jQuery first, then Bootstrap JS. -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script> 
+   </body>
+</html>

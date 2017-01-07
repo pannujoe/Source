@@ -1,0 +1,6 @@
+C:\Users\pannu\Source\c#\Console Project\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\pannu\Source\c#\Console Project\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\pannu\Source\c#\Console Project\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\pannu\Source\c#\Console Project\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\pannu\Source\c#\Console Project\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\pannu\Source\c#\Console Project\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

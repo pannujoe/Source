@@ -1,0 +1,290 @@
+/* BASE - Base styles, variables, mixins,etc */
+/* Font Colors */
+/*Background Colors */
+/* Showcase Area */
+/* Mixins */
+/* line 1, ../scss/base/_normalize.scss */
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
+/* line 5, ../scss/base/_normalize.scss */
+.page-header {
+  margin-top: 30px;
+}
+
+/* line 9, ../scss/base/_normalize.scss */
+.no-pad-top {
+  padding-top: 0;
+}
+
+/* line 1, ../scss/base/_base.scss */
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666;
+}
+
+/* line 8, ../scss/base/_base.scss */
+a {
+  color: #00aff0;
+}
+
+/* line 12, ../scss/base/_base.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 16, ../scss/base/_base.scss */
+input, textarea, button {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* line 21, ../scss/base/_base.scss */
+img.device {
+  width: 100%;
+}
+
+/* line 25, ../scss/base/_base.scss */
+img.device-small {
+  width: 70%;
+  margin-bottom: -30px;
+}
+
+/*MODULES - Individual site components */
+/* Lists */
+/* line 4, ../scss/modules/_typography.scss */
+.list, .list-feature {
+  margin-bottom: 30px;
+}
+
+/* line 9, ../scss/modules/_typography.scss */
+.list-feature {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+/* line 15, ../scss/modules/_typography.scss */
+.list-feature li {
+  line-height: 3.6em;
+  border-bottom: 1px solid #cccccc;
+}
+/* line 20, ../scss/modules/_typography.scss */
+.list-feature li:last-child {
+  border: 0;
+}
+/* line 24, ../scss/modules/_typography.scss */
+.list-feature span {
+  vertical-align: top;
+  padding-top: 9px;
+  font-size: 120%;
+}
+/* line 30, ../scss/modules/_typography.scss */
+.list-feature i {
+  margin-top: -9px;
+  margin-right: 5px;
+}
+
+/* Icons */
+/* line 40, ../scss/modules/_typography.scss */
+.fa-primary {
+  color: #00aff0;
+}
+
+/* line 44, ../scss/modules/_typography.scss */
+.fa-border {
+  border: 1px solid #00aff0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 15px 13px;
+  margin-left: 70px;
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+/* Headings */
+/* line 57, ../scss/modules/_typography.scss */
+.heading-primary {
+  color: #00aff0;
+}
+
+/* Blocks */
+/* line 3, ../scss/modules/_blocks.scss */
+.block, .block-primary, .block-secondary, .block-light, .block-dark {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+/* line 7, ../scss/modules/_blocks.scss */
+.block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 13, ../scss/modules/_blocks.scss */
+.block-primary {
+  background: #00aff0;
+  color: ffffff;
+}
+
+/* line 18, ../scss/modules/_blocks.scss */
+.block-secondary {
+  background: #7fba00;
+  color: ffffff;
+}
+
+/* line 23, ../scss/modules/_blocks.scss */
+.block-light {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 28, ../scss/modules/_blocks.scss */
+.block-dark {
+  background: #333333;
+  color: ffffff;
+}
+
+/* Buttons */
+/* line 3, ../scss/modules/_buttons.scss */
+.btn-primary {
+  background: #00aff0;
+  color: ffffff;
+  border: 2px solid white;
+}
+
+/* line 8, ../scss/modules/_buttons.scss */
+.btn-primary:hover {
+  background: #24c4ff;
+  border: 2px solid white;
+}
+
+/* Sections */
+/* line 3, ../scss/modules/_sections.scss */
+section {
+  padding: 30px 0;
+}
+
+/* line 7, ../scss/modules/_sections.scss */
+.section-showcase {
+  height: 400px;
+  background: url("../images/showcase.jpg;") no-repeat top center;
+}
+/* line 11, ../scss/modules/_sections.scss */
+.section-showcase .showcase-content {
+  padding: 110px 15px;
+  text-align: center;
+}
+/* line 16, ../scss/modules/_sections.scss */
+.section-showcase h1 {
+  color: #00aff0;
+}
+
+/* line 21, ../scss/modules/_sections.scss */
+.section-primary {
+  background: #00aff0;
+  color: ffffff;
+}
+
+/* line 25, ../scss/modules/_sections.scss */
+.section-secondary {
+  background: #7fba00;
+  color: ffffff;
+}
+
+/* line 29, ../scss/modules/_sections.scss */
+.section-light {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 33, ../scss/modules/_sections.scss */
+.section-dark {
+  background: #333333;
+  color: ffffff;
+}
+
+/* Searchbox */
+/* line 3, ../scss/modules/_forms.scss */
+.search {
+  width: 100%;
+}
+/* line 6, ../scss/modules/_forms.scss */
+.search h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+/* line 11, ../scss/modules/_forms.scss */
+.search input[type="search"] {
+  border: 0;
+  height: 50px;
+  width: 80%;
+  border: 2px solid #00aff0;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+/* line 21, ../scss/modules/_forms.scss */
+.search button {
+  border: 0;
+  background: none;
+  padding: 0;
+  vertical-align: top;
+  margin-left: -4px;
+}
+
+/*LAYOUTS - Page layout styles */
+/* Navbar */
+/* line 3, ../scss/layouts/_nav.scss */
+.navbar {
+  width: 90%;
+  margin: auto;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  border-color: #e7e7e7;
+  min-height: 60px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+/* line 12, ../scss/layouts/_nav.scss */
+.navbar a {
+  color: #00aff0 !important;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  padding-bottom: 24px !important;
+  padding-top: 20px !important;
+}
+
+/* line 22, ../scss/layouts/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background: #00aff0 !important;
+  color: #fff !important;
+}
+
+/* Footer */
+/* line 3, ../scss/layouts/_footer.scss */
+.footer-main {
+  background: #333333;
+  color: ffffff;
+  border-top: 5px solid #7fba00;
+  min-height: 200px;
+  padding: 30px 0;
+  z-index: 100;
+}
+/* line 10, ../scss/layouts/_footer.scss */
+.footer-main a {
+  color: #ffffff;
+}
+/* line 14, ../scss/layouts/_footer.scss */
+.footer-main ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 19, ../scss/layouts/_footer.scss */
+.footer-main li {
+  line-height: 1.8em;
+  list-style: none;
+}

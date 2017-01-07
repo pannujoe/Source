@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+	<canvas id="c" width="500" height="500"></canvas>
+	<script>
+		var c= document.querySelector("#c");
+		var ctx= c.getContext("2d");
+		
+		/*ctx.strokeRect(50, 50, 100, 100);
+		ctx.beginPath();
+		ctx.moveTo(75, 75);
+		ctx.lineTo(125, 125);
+		ctx.lineTo(125, 125);
+		ctx.lineTo(75, 75);
+		ctx.fill();*/
+		
+		ctx.font = "36pt Impact";
+		ctx.textAlign = "center";
+		
+		ctx.fillStyle = "white";
+		ctx.fillText("CANVAS MEMES", c.width / 2, 40);
+		
+		ctx.strokeStyle = "black";
+		ctx.lineWidth = 3;
+		ctx.strokeText("CANVAS MEMES", c.width / 2, 40);
+		
+	</script>
+</body>
+</html>

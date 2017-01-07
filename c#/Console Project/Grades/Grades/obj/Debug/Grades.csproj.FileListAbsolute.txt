@@ -1,0 +1,6 @@
+C:\Users\pannu\Source\c#\Console Project\Grades\Grades\bin\Debug\Grades.exe.config
+C:\Users\pannu\Source\c#\Console Project\Grades\Grades\bin\Debug\Grades.exe
+C:\Users\pannu\Source\c#\Console Project\Grades\Grades\bin\Debug\Grades.pdb
+C:\Users\pannu\Source\c#\Console Project\Grades\Grades\obj\Debug\Grades.csprojResolveAssemblyReference.cache
+C:\Users\pannu\Source\c#\Console Project\Grades\Grades\obj\Debug\Grades.exe
+C:\Users\pannu\Source\c#\Console Project\Grades\Grades\obj\Debug\Grades.pdb

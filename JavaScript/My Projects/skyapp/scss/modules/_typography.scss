@@ -1,0 +1,60 @@
+/* Lists */
+
+
+.list{
+    margin-bottom: 30px;
+    
+}
+
+.list-feature{
+    @extend .list;
+    margin:0;
+    padding:0;
+    width:80%;
+    
+    li{
+        line-height: 3.6em;
+        @include add-border(1px, #cccccc, bottom);
+    }
+    
+    li:last-child{
+        border:0;
+    }
+    
+    span{
+        vertical-align: top;
+        padding-top: 9px;
+        font-size: 120%;
+    }
+    
+    i{
+        margin-top: -9px;
+        margin-right: 5px;
+    }
+}
+
+
+/* Icons */
+
+
+.fa-primary{
+    color:$primary-color;
+}
+
+.fa-border{
+    @include add-border(1px, $primary-color, all);
+    @include border-radius(5px);
+    padding: 15px 13px;
+    margin-left: 70px;
+    width:70px;
+    margin-bottom: 10px;
+}
+
+
+/* Headings */
+
+
+.heading-primary{
+    color:$primary-color;
+}
+
